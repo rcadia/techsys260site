@@ -88,6 +88,10 @@ html {
 /* --------------------------------------
    Services
    -------------------------------------- */
+   .services-section {
+    padding-top: 50px;
+   }
+
 
 
 /* --------------------------------------
@@ -113,21 +117,26 @@ html {
     background: #bdc3c7;
 }
 
-
-
+/* --------------------------------------
+   Careers
+   -------------------------------------- */
 
 .careers-section {
-    height: 100%;
-    padding-top: 150px;
+  height: 70%;
+    padding-top: 50px;
+    color: white;
     text-align: center;
-    background: #8e44ad;
+background: url("../images/contact-us-bg.png") no-repeat scroll center bottom / cover;
+background-attachment: fixed;
 }
+
+
 
 .contactus-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #7f8c8d;
+    background: white;
 }
 
 .investorrelations-section {
@@ -137,6 +146,9 @@ html {
     background: #e74c3c;
 }
 
+.careersBtn {
+  margin-bottom: 75px;
+}
 
 
 /* --------------------------------------
